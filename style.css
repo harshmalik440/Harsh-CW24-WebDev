@@ -1,0 +1,249 @@
+@font-face {
+    src: url(Fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+    font-family: OpenSans;
+}
+@font-face {
+    src: url(Fonts/IMFellFrenchCanonSC-Regular.ttf);
+    font-family: IMFFC;
+}
+#page{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+header{
+    height: 150px;
+    margin-left: -8px;
+    margin-right:0px;
+    margin-top:-47px;
+    background-image: url(Images/backg.png);
+    min-width: 1475px;
+}
+h1{
+    font-family: IMFFC;
+    font-size: 4em;
+    color: #FFFFFF;
+    position: relative;
+    top:30px;
+    left: 50px;
+}
+#topmid{
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+}
+.middle{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.init{
+    height:50px;
+    min-width: 70px;
+    font-family: OpenSans;
+    float: left;
+    font-size: 0.9em;
+    font-weight: bold;
+    position: static;
+    transition: background-color 0.3s;
+}
+.init:hover{
+    background-color: black;
+    color: #FFFFFF;
+    transform: scale(1.1);
+}
+.terms{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#sear{
+    float: right;
+    margin-right: 30px;
+}
+select{
+    font-family: OpenSans;
+    border: #FFFFFF;
+    height: 50px;
+    width: 100px;
+    font-size: 1em;
+    outline: none;
+    font-weight: bold;
+}
+select option{
+    font-family: OpenSans;
+    border: #FFFFFF;
+    font-size: 1em;
+    outline: none;
+    font-weight: bold;
+}
+select:hover{
+    background-color: black;
+    color: #FFFFFF;
+}
+#brn{
+    font-family: OpenSans;
+    font-weight: bold;
+    float: left;
+    position: relative;
+    left: 15px;
+    bottom: 10px;
+}
+#txt1{
+    font-family: OpenSans;
+    float: left;
+    position: relative;
+    left: 70px;
+    bottom: 10px;
+}
+#txt2{
+    font-family: OpenSans;
+    float: right;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+}
+#bn{
+    background-color: #EEEEEE;
+    height: 40px;
+}
+#stark{
+    float: left;
+    margin-left: 30px;
+    position: relative;
+    top: 5px;
+}
+#weath{
+    float: right;
+    position: relative;
+    right: 200px;
+}
+#blockmain{
+    width: 1080px;
+    height: 420px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.butt{
+    font-family: OpenSans;
+    border-radius: 25px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    align-items: center;
+    transition: background-color 0.5s;
+}
+.butt:hover{
+    background-color: #FFFFFF;
+    color: black;
+}
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 24px; 
+    color: white;
+    text-align: center;
+}
+#mn1{
+    transform: translate(-180%, 100%);
+}
+#mn2{
+    transform: translate(-45%, 95%);
+}
+#mn3{
+    transform: translate( 205%, -20%);
+}
+#mn4{
+    transform: translate( 190%, -20%);
+}
+.links{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+.links:hover{
+    color: #FFFFFF;
+}
+.mntxt:hover{
+    color: rgb(5, 214, 241);
+    transform: scaleX(1.1);
+}
+.calen{
+    font-family: OpenSans;
+    font-size: 0.6em;
+}
+#mainpage{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+    margin-top: -90px;
+}
+#sideblock1{
+    margin-top: 20px;
+    height: 430px;
+    width: 350px;
+    display:grid;
+    grid-template-rows: 0.6fr 4fr;
+}
+#choice{
+    width: 350px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.siders{
+    align-items: center;
+    background-color: rgb(245, 244, 243);
+    transition: background-color 0.5s;
+}
+.siders:hover{
+    color: #FFFFFF;
+    background-color: black;
+    transform: scale(1.1);
+}
+.qwe{
+    text-align: center;
+    font-family: OpenSans;
+    font-size: 1.1em;
+}
+.smallim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 80px;
+    width: 80px;
+    margin-top: 6px;
+    margin-left: 6px;
+    overflow: hidden;
+    float: left;
+}
+.asd{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    height: 92px;
+    width: 350px;
+    background-color: #f1eeeeaa;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.asd:hover{
+    background-color: hsl(0, 0%, 0%);
+    color: rgb(255, 255, 255);
+}
+.dat{
+    font-family: OpenSans;
+    font-size: 1.1em;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+.datsm{
+    font-family: OpenSans;
+    font-size: 0.8em;
+    position: relative;
+    left: 45px;
+    bottom: 65px;
+}
+.calsm{
+    position: relative;
+    left: 20px;
+    bottom: 30px;
+}
+
