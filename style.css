@@ -1,9 +1,9 @@
 @font-face {
-    src: url(Fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+    src: url(OpenSans-VariableFont_wdth\,wght.ttf);
     font-family: OpenSans;
 }
 @font-face {
-    src: url(Fonts/IMFellFrenchCanonSC-Regular.ttf);
+    src: url(IMFellFrenchCanonSC-Regular.ttf);
     font-family: IMFFC;
 }
 #page{
